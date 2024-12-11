@@ -38,7 +38,6 @@ def get_antinode_positions(a1: tuple, a2: tuple) -> set[tuple]:
 
     return node_positions
 
-
 antinode_positions = set()
 
 for positions in antennas.values():
